@@ -1,0 +1,719 @@
+*{
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: "fuente1";
+    src: url("./fonts/MetaSerifOT-Bold.otf");
+  }
+  @font-face {
+    font-family: "fuente2";
+    src: url("./fonts/MyriadPro-SemiboldIt.otf");
+  }
+  
+  @font-face {
+    font-family: "fuente3";
+    src: url("./fonts/Montserrat-Bold.ttf");
+    
+  }
+/*   
+  font-size: 1.5rem;
+    font-weight: 700; */
+  @font-face {
+    font-family: "fuente4";
+    src: url("./fonts/MyriadPro-SemiboldIt.otf");
+    
+  }
+  @font-face {
+    font-family: "fuente5";
+    src: url(./fonts/MetaSerifOT-Book.otf);
+   }
+  
+  p{
+    font-family: "fuente1";
+    font-size: 150%;
+  }
+
+  h2{
+    font-family: "fuente2";
+    font-size: 200%;
+  }
+.fa {
+    padding: 5px;
+    font-size: 20px !important;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .navbar-nav{
+    font-size: 1.22rem;
+  
+  }
+ .navbar{
+  margin-top: -2px;
+  margin-bottom: -2px;
+  margin-left: -1%;
+ } 
+  .fa:hover { 
+    opacity: 0.7;
+  }
+  .barra{
+    display: flex;
+  }
+  .fa-facebook {
+    color: #5a5f62;
+  }
+
+  .fa-instagram {
+    color: #5a5f62;
+    
+  }
+  .fa-whatsapp{
+    color: #5a5f62;
+  }
+  .navbar{
+    background-color: #d1d2d4;
+  }
+
+.navbar{
+  padding-bottom: 0rem !important;
+  padding-top: 0rem !important;
+  background-color: #d1d2d4 !important;
+
+}
+
+.banner>img{  
+  width: 100%;
+}
+
+section{
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+.contenedor{
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+.text-banner{
+  position: absolute;
+  top: 15%;
+  left: 3%;
+}
+.text-banner>h3{
+  top: 15%;
+  left: 70%;
+}
+
+.col{
+  width: 50%;
+	float: left;
+}
+
+.big-link { 
+  color: #fff;
+  text-decoration: none;
+}
+.descubre{
+  background-color: #6b7172;
+}
+.destacado{
+  background-color: #59ad85;
+}
+
+.col:hover {
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5), 0 0 0 rgb(2, 2, 2);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px rgb(0, 0, 0);
+}
+.mapa>img{
+   width: 50%;
+   
+}
+
+.mapa{
+  height: 50%;
+  display: flex;
+  background-color: #ffffff;
+
+}
+.info{
+  display: table;
+  vertical-align: middle;
+  float: none;
+  align-items: center;
+  margin: auto;
+  padding: 0.75rem .5rem;
+}
+.info>p{
+  width: 80%;
+    margin: auto;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.cerca{
+  text-align: center;
+  font-size: 2.25em ;
+}
+.cerca>p,h2{
+  color: #fff;
+  margin: 0em 0 !important;
+}
+.cerca>p{
+  font-size: smaller;
+}
+.fondo-cerca{
+  background: #6f91ab;
+}
+.text-contenedor{
+  color: white;
+  position: absolute;
+  top: 35%;
+    left: -57%;
+
+}
+.text-park{
+  position: absolute;
+  top: 33%;
+  right: 5%;
+}
+.text-playa{
+  position: absolute;
+  top: 35%;
+  right: 26%;
+}
+.tabla{
+  margin-left: 10%;
+  color: #000000;
+}
+.anuncio{
+  background-color: #6b7172;
+  text-align: center;
+}
+.anuncios{
+  padding: 10px;
+  background-color: #59ad85;
+  text-align: center;
+}
+.casas{
+  display: flex;
+
+ 
+}
+.titulo{
+  text-align: center;
+  color: #4f5457;
+}
+.content>img{
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+.plano-title{
+  font-family: 'fuente1';
+  margin-bottom: 0px !important;
+}
+.centrado{
+  display: flex;
+  background: #dcdddf;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: right;
+  color: #4f5457;
+}
+.pdf{
+  width: 22%;
+  margin-top: 2px;
+  font-family: "fuente5";
+  font-size: 1.3rem;
+}
+.alcentro{
+  margin-top: 5px;
+  display: flex;
+  background: #dcdddf;
+  justify-content: center;
+  text-align: right;
+  color: #4f5457;
+}
+.casas{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'fuente1';
+  margin-bottom: 0px !important;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.pdfs{
+  width: 22%;
+  margin-top: 22px;
+  font-family: "fuente5";
+  font-size: 1.3rem;
+  margin-left: 110px;
+}
+
+.imagen-casas{
+  margin-left: -3.5rem;
+}
+.image-pdf{
+  width: 12%;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.parrafo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid{
+  padding-right: 0px !important;
+}
+
+#contact {
+  transform: scale(0.9);
+  display: block;
+  color: #4F5457;
+  float: right;
+  line-height: 1.4rem;
+  text-align: right;
+}
+footer{
+  background-color: #4f5457;
+}
+.py-3{
+  color: white;
+}
+
+.col-6{
+  padding: 20px 0 14px;
+}
+
+.mercados{
+  width: 14%;
+}
+.pb-3{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.encabezado{
+  font-size: 4.0rem !important;
+}
+.info{
+  font-size: 1.2rem;
+}
+
+.datos{
+  display: flex;
+  justify-content: center;
+  
+}
+.direccion{
+  margin-left: 50px;
+}
+.datos>input{
+  margin-top: 160px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  margin-right: -49.5rem;
+  font-size: 1.8rem;
+  font-family: unset;
+  color: white;
+  background-color: #97999c;
+}
+.nombre>p{
+  font-family: unset;
+  
+}
+.direccion>p{
+  font-family: unset;
+}
+.coordinar>p{
+  font-family: unset;
+}
+
+.comentarios{
+  padding-top: 25px;
+}
+.navbar-brand{
+  padding-top: 0px !important;  
+  padding-bottom: 0px !important;  
+}
+.navbar-toggler{
+  margin-right: 5px;
+}
+@media  screen and (min-width: 1823px) {
+  .info>p{
+    font-size: 2.3rem;
+  }
+  }
+@media  screen and (min-width: 1600px) {
+
+  .texto{
+    font-size: 2.2rem !important;
+  }
+  .textos{
+    font-size: 4rem !important;
+  }
+  .encabezado{
+    font-size: 5.5rem !important;
+  }
+  .py-3{
+    font-size: 1.9 !important;
+  }
+}
+@media  screen and (max-width: 1310px) {
+  .text-contenedor{
+    position: absolute;
+    top: 20%;
+   
+    }
+    .text-park{
+      position: absolute;
+      top: 15%;
+    }
+    .text-playa{
+      position: absolute;
+      top: 25%;
+    }
+    .logo{
+      margin-left: -3px;
+    }
+}
+
+@media  screen and (max-width: 1090px) {
+  .conta{
+    transform: scale(0);
+    margin-left: -220px !important;
+ }
+
+ .datos{
+  display: block;
+  text-align: center;
+}
+.direccion{
+  margin-left: 0px;
+}
+.coordinar>textarea{
+  width: 28rem !important;
+  height: 200px !important;
+}
+.datos>input{
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.logo{
+  margin-left: -3px;
+}
+}
+@media  screen and (max-width: 1000px) {
+  .mapa>img{
+    width: 100%; 
+ }
+.info{
+  width: 100%;
+    align-items: center;
+
+}
+	.mapa {
+    display: block;
+
+	}
+  /* .cerca{
+    transform: scale(0.8);
+  } */
+  .text-park{
+    position: absolute;
+    top: 8%;
+    right: 0%;
+  }
+
+
+}
+@media  screen and (max-width: 853px) {
+  .pdf{
+    width: 37%;
+    margin-top: -1px;
+  }
+  .pdfs{
+    width: 39%;
+    margin-top: 18px;
+    margin-left: 61px;
+  }
+  .imagen-casas{
+    margin-left: 12px !important;
+  }
+  /* .casas{
+    margin-left: 4px;
+  } */
+  .plano-title{
+    margin-left: 25px;
+  }
+}
+@media  screen and (max-width: 837px) {
+  .navbar-nav{
+    font-size: 1.1rem;
+  }
+  .mercados{
+    width: 25%;
+  }
+}
+@media  screen and (max-width: 826px) {
+  .text-contenedor{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+ }
+ /* .cerca{
+  transform: scale(0.7);
+} */
+.text-park{
+  width: 100% !important;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+}
+.text-playa{
+  position: absolute;
+  top: 10%;
+  left: 0%;
+}
+.col {
+  width: 100%;
+}
+
+.logo{
+  margin-left: -8px;
+}
+.informacion-titulo{
+  font-size: 2.6rem !important;
+}
+.informacion{
+  font-size: 1.2rem !important;
+}
+.tabla>ul{
+  margin-left: -33px;
+}
+
+}
+
+@media  screen and (max-width: 700px) {
+  .text-contenedor{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+ }
+ /* .cerca{
+  transform: scale(0.6);
+} */
+.text-park{
+  position: absolute;
+  top: 10%;
+  left: 0%;
+}
+.text-playa{
+  position: absolute;
+  top: 11%;
+  left: 0%;
+}
+.logo{
+  margin-left: -8px;
+}
+.mercados{
+  width: 40%;
+}
+.house{
+  width: 100% !important;
+
+}
+.casas{
+  display: block;
+}
+
+.anuncio>h2{
+  font-size: 1.5rem !important;
+}
+
+}
+@media  screen and (max-width: 600px) {
+	#action {
+    display: block;
+    width: 100%;
+		float: left;
+	}
+  .text-contenedor{
+    position: absolute;
+    top: -4%;
+    left: 0%;
+    transform: scale(0.8);
+ }
+ .text-park{
+ position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: scale(0.6);
+ }
+ .text-playa{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: scale(0.6);
+}
+.informacion-titulo{
+  font-size: 1.4rem !important;
+}
+.informacion{
+  font-size: 0.8rem !important;
+}
+
+
+}
+@media screen and (max-width: 500px){
+  .pb-3{
+    display: grid;
+    text-align: center;
+    padding-left: 0;
+    list-style: none;
+  }
+  .anuncio>h2{
+    font-size: 1rem !important;
+  }
+  .pdf{
+    width: 57%;
+    margin-top: -2px;
+  }
+  .imagen-casas{
+    width: 25px !important;
+    margin-left: 3% !important;
+  }
+  .pdfs{
+    width: 55%;
+    margin-left: 70px;
+  }
+  .nombre>input{
+    width: 17rem !important;
+  }
+  .direccion>input{
+    width: 17rem !important;
+  }
+  .coordinar>textarea{
+    width: 17rem !important; 
+  }
+  .logo{
+    margin-left: -11px;
+  }
+}
+@media  screen and (max-width: 474px) {
+  .text-park{
+    position: absolute;
+       top: -35%;
+       left: 0%;
+       transform: scale(0.4);
+    }
+    .text-playa{
+      position: absolute;
+      top: -8%;
+      left: 0%;
+      transform: scale(0.4);
+    }
+    .logo{
+      margin-left: -11px;
+    }
+    .mercados{
+      width: 50%;
+    }
+    .plano-title{
+      margin-left: 0px;
+    }
+    .pdfs{
+      width: 55%;
+      margin-left: 46px;
+    }
+    
+}
+@media screen and (max-width: 416px) {
+  .logo{
+    transform: scale(0.75);
+    margin-left: -48px;
+  }
+  .text-contenedor{
+    position: absolute;
+    top: -14%;
+    left: 0%;
+    transform: scale(0.5);
+ }
+ .text-park{
+  position: absolute;
+  top: -49%;
+  left: 0%;
+  transform: scale(0.4);
+  }
+  .text-playa{
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    transform: scale(0.4);
+  }
+  .mercados{
+    width: 65%;
+  }
+  .navbar{
+    margin-top: -9px;
+      margin-bottom: -9px;
+      margin-left: -6px;
+  }
+}
+@media  screen and (max-width: 388px) {
+
+  .text-contenedor{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: scale(0.5);
+ }
+ .text-park{
+  position: absolute;
+  top: -53%;
+  left: 0%;
+  transform: scale(0.4);
+  }
+  .text-playa{
+    position: absolute;
+    top: -26%;
+    left: 0%;
+    transform: scale(0.4);
+  }
+  .textos{
+    margin-top: -20px;
+  }
+
+}
+
+@media  screen and (max-width: 374px) {
+  .logo {
+    transform: scale(0.7);
+    margin-left: -51px;
+}
+.logofinal{
+  width: 90%;
+}
+.navbar{
+  margin-top: -9px;
+    margin-bottom: -9px;
+    margin-left: -6px;
+}
+
+}
